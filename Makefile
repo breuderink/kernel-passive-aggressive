@@ -1,4 +1,4 @@
-CFLAGS ?= -I ../vendor/ -MP -std=c99 -Wall -fsanitize=undefined,address
+CFLAGS ?= -I vendor/ -MP -std=c99 -Wall -fsanitize=undefined,address
 LDFLAGS ?= -fsanitize=undefined,address
 
 all: kpa_test
